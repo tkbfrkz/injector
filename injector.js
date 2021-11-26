@@ -14,6 +14,7 @@ textArea.style.height = '450px';
 textArea.style.marginLeft = '10px';
 textArea.style.marginRight = '10px';
 textArea.style.marginTop = '10px';
+textArea.onclick = function(e) {e.stopPropagation();}
 
 var button = document.createElement('button');
 button.innerText = "Run";
